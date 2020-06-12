@@ -1,0 +1,58 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Roboto', open-sans;
+  margin: 0;
+}
+
+h1 {
+  margin: 0;
+}
+
+header {
+  background-color: pink;
+  width: 100%;
+
+  box-shadow: 5px 10px #888888;
+  text-align: center;
+}
+
+main {
+  display: flex;
+  margin: auto;
+  max-width: 100rem;
+  /* margin: 2rem; */
+  align-items: flex-start;
+  /* flex-wrap: wrap; */
+  padding: 2rem;
+}
+
+section#about-this-course {
+  background: rgb(220, 220, 201);
+  /* width: 40%; */
+  /* align-self: flex-end; */
+  margin: 1rem;
+  padding: 1rem;
+  border-style: solid;
+  border-width: 5px;
+}
+
+#instructor-info img {
+  width: 5rem;
+  height: 5rem;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 1px solid #ccc;
+}
+
+section#about-the-instructor {
+  background: green;
+  border-style: solid;
+  border-color: purple;
+margin: 1rem;
+  padding: 1rem;
+  color: white;
+  max-width: 40rem;
+}
