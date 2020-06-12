@@ -164,3 +164,19 @@
 //  cy.log('done')
 //  cy.getCookie('access')
 // })
+
+
+
+
+
+
+
+
+describe('Unit Test Application Code', function () {
+  it('returns "fizz" when number is multiple of 3', function () {
+    const url = './dom-14-finished/index.html'
+    cy.visit(url)
+        cy.document().then( document => cy.wrap(document.querySelector('header button')).should('have.css', 'background-color', 'rgb(246, 119, 34)') )
+    cy.window().invoke('fun').should('equal', 'dave') // If 'fun()' gets stubbed then this assertion will fail
+  })
+})
